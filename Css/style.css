@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+}
+
+.top-container {
+  background-color: #1F2937;
+  width: 100%;
+  color: white;
+  align-items: center;
+}
+.header {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding-top: 20px;
+}
+.header-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right h4 {
+  padding-right: 20px;
+}
+button{
+  background-color: blue;
+  /* height: fit-content;
+  width: min-content; */
+  border-radius: 5px;
+}
+
+.banner {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.banner .banner-left {
+  padding-right: 10px;
+}
+
+.middle-container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.middle-container h3 {
+  text-align: center;
+}
+
+.middle-container .image-set {
+  width: 60%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.middle-container .image-set p {
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #E5E7EB;
+  width: 100%;
+  color: rgb(129, 109, 109);
+  align-items: center;
+}
+
+.bottom-container .quote-container {
+  /* width: 50%; */
+  margin: 0px auto;
+  padding: 40px;
+  padding-left: 400px;
+  font-size: 28px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.bottom-container .thor {
+  color: black;
+  font-weight: bold;
+  padding-left: 500px;
+}
+.bottom-containermid{
+  background-color: blue;
+  color: white;
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 30px 0px; */
+}
+.bottom-containermid .para{
+  font-weight: bold;
+}
+.bottom-containermid .b{
+  height: fit-content;
+  border-radius: 10px solid whitesmoke;
+  color: whitesmoke;
+  padding: 10px 30px 10px 30px;
+  /* padding-top: 200px; */
+}
+.copyrights{
+  width: 70%;
+  height: 40px;
+  margin: 0px auto;
+  background-color: #1F2937; 
+  text-align: center;
+  color: whitesmoke;
+  padding: 10px 0px 0px 0px;
+  /* align-items: center; */
+}
